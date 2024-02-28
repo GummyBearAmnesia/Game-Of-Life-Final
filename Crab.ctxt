@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Crab
+comment0.text=\r\n\ A\ crab\ cell.\r\n\ Each\ generation,\ will\ move\ a\ random\ number\ of\ squares\ in\ a\r\n\ random\ direction.\ Will\ kill\ everything\ in\ its\ path.\r\n\r\n\ @author\ Aamukta\ Thogata\r\n\ @24/Feb\r\n
+comment1.params=field\ location\ col
+comment1.target=Crab(Field,\ Location,\ javafx.scene.paint.Color)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Crab\ chooses\ a\ random\ direction\ to\ move\ in,\ and\ a\ random\ number\ of\ steps\ each\ generation.\r\n\ Everything\ that\ the\ crab\ crosses\ paths\ with,\ will\ die.\ Should\ leave\ a\ trail\ of\ destruction\r\n\ everywhere\ it\ goes.\ Nothing\ can\ kill\ the\ crab,\ the\ crab\ cannot\ become\ infected.\ The\ crab\ can\ only\ be\r\n\ eaten\ by\ the\ snake.\r\n
+comment3.params=
+comment3.target=void\ move()
+comment4.params=
+comment4.target=int[]\ getRandomDirection()
+comment4.text=\r\n\ Method\ to\ randomly\ choose\ a\ direction,\ in\ cartesian\ vector\ form\ [+row,\ +column]\r\n\ For\ example,\ [0,1]\ would\ move\ it\ to\ the\ right\ (\ +1\ column\ )\ and\ [0,-1]\ to\ the\ left\ (\ -1\ column\ )\r\n\ Returns\ the\ output,\ to\ be\ used\ in\ the\ move\ method.\r\n
+comment5.params=locations
+comment5.target=void\ obliterate(java.util.LinkedList)
+comment5.text=\r\n\ Destroys\ (clears)\ all\ the\ locations\ which\ the\ crab\ has\ passed\ over.\r\n\ @param\ locations\r\n
+numComments=6

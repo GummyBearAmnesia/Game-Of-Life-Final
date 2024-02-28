@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ColorChangingCell
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ColorChangingCell\ here.\r\n\r\n\ @author\ Onessa\ Crispeyn\ K23080159\r\n\ @version\ 11/02/2024\r\n
+comment1.params=field\ location\ col
+comment1.target=ColorChangingCell(Field,\ Location,\ javafx.scene.paint.Color)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ColorChangingCell\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Allows\ the\ color\ changing\ cell\ to\ act\ and\ determines\ whether\ it\ is\ alive\ or\ not\ in\ th\ e\r\n\ next\ generation\r\n
+comment3.params=
+comment3.target=void\ reproduce()
+comment3.text=\ \r\n\ If\ the\ cell\ has\ 3+\ neighbours\ of\ the\ same\ type,\ it\ makes\ a\ new\ baby\ cell\ with\ an\ empty\ space\ next\ to\ it\r\n
+comment4.params=
+comment4.target=void\ changeColor()
+comment4.text=\r\n\ Changes\ colour\ based\ on\ the\ cell's\ age.\r\n\ Turns\ light\ blue\ between\ age\ 0-4,\ blue-violet\ between\ ages\ 5-9,\ blue\ between\ ages\ 10-14,\ \r\n\ When\ the\ cell\ reaches\ age\ 15,\ it\ dies.\r\n
+numComments=5

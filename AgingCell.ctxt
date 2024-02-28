@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=AgingCell
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ AgingCell\ here.\r\n\r\n\ @author\ Aamukta\ Thogata\ K2369720\r\n\ \ \ \ \ \ \ \ \ Onessa\ Crispeyn\ K23080159\r\n\ @version\ 11/02/2024\ 11\:44\r\n
+comment1.params=field\ location\ col
+comment1.target=AgingCell(Field,\ Location,\ javafx.scene.paint.Color)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ AgingCell\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Performs\ actions\ based\ on\ the\ cell's\ age.\r\n\ Moves\ between\ age\ 0-10,\ reproduces\ during\ age\ 11-20,\ and\ turns\ yellow\ during\ age\ 21-30.\r\n\ When\ the\ cell\ reaches\ age\ 30,\ it\ dies.\r\n
+comment3.params=
+comment3.target=void\ migrate()
+comment3.text=\r\n\ Moves\ to\ an\ empty\ adjacent\ location\ on\ the\ grid,\ each\ generation\r\n
+comment4.params=
+comment4.target=void\ reproduce()
+comment4.text=\r\n\ Reproduces\ by\ creating\ new\ aging\ cells\ in\ adjacent\ empty\ locations,\r\n\ if\ there\ are\ 2/\ 3\ neighbouring\ cells\ between\ the\ ages\ of\ 10-20\r\n
+comment5.params=age
+comment5.target=void\ setAge(int)
+comment6.params=
+comment6.target=int\ getAge()
+numComments=7

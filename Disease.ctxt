@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Disease
+comment0.text=\r\n\ A\ bacteria\ that\ infects\ other\ life\ forms\ in\ order\ to\ spread.\r\n\r\n\ @author\ Aamukta\ Thogata\r\n\ @9/Feb\ 12\:04\r\n
+comment1.params=field\ location\ col
+comment1.target=Disease(Field,\ Location,\ javafx.scene.paint.Color)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Disease\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Determines\ how\ the\ disease\ cell\ acts\ and\ whether\ it's\ alive\ or\ not\ in\ the\ next\ stage\r\n
+comment3.params=neighbours
+comment3.target=void\ infect(java.util.List)
+comment3.text=\r\n\ Infects\ neighbouring\ cells,\ which\ will\ become\ fully\ functioning\ disease\ cells\ if\ they\ aren't\ a\ crab/\ snake\ and\ the\r\n\ infection\ probability\ is\ met.\r\n\ Kills\ neighbouring\ cells\ if\ the\ kill\ probability\ is\ met\r\n
+numComments=4

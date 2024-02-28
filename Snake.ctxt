@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Snake
+comment0.text=\r\n\ A\ snake\ like\ microorganism.\ Long,\ moves\ towards\ food\ and\ grows\ every\ time\ it\r\n\ consumes\ something.\r\n\r\n\ @author\ Aamukta\ Thogata\ K2369720\r\n\ @9/Feb\ 11\:57\r\n
+comment1.params=field\ location\ col\ isHead
+comment1.target=Snake(Field,\ Location,\ javafx.scene.paint.Color,\ java.lang.Boolean)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ This\ makes\ the\ cell\ do\ actions,\ determines\ the\ cell's\ status\ in\ the\ next\ generation\r\n
+comment3.params=neighbour
+comment3.target=void\ consume(Cell)
+comment3.text=\r\n\ Moves\ in\ a\ random\ direction,\ towards\ a\ living\ cell.\ Consumes\ the\ cell\ and\ makes\ the\ snake\ longer.\r\n
+comment4.params=currentLocation
+comment4.target=Location\ getNewLocation(Location)
+comment4.text=\r\n\ Choses\ a\ direction\ for\ the\ snake\ to\ go\ in,\ up,\ down,\ left\ or\ right\r\n\ Returns\ the\ location\ which\ the\ head\ of\ the\ snake\ will\ move\ to\r\n
+numComments=5
